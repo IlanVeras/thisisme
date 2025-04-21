@@ -6,7 +6,7 @@
       "tecnologias": ["React", "Victory Lib.", "React Router"],
       "link": "https://dogsocialmedia74312.netlify.app/",
       "repositorio": "https://github.com/IlanVeras/dog",
-      "imagem": "../pictures/picture1"
+      "imagem": "/pictures/picture1.JPG"
     },
     {
       "id": 1,
@@ -15,7 +15,7 @@
       "tecnologias": ["React", "HTML", "CSS", "JavaScript"],
       "link": "https://red-queen-app-ten.vercel.app/",
       "repositorio": "https://github.com/IlanVeras/red-queen-app",
-      "imagem": "../pictures/picture1"
+      "imagem": "/pictures/picture2.JPG"
     },
     {
       "id": 2,
@@ -24,7 +24,7 @@
       "tecnologias": ["React", "HTML", "CSS"],
       "link": "https://loja-online-kappa.vercel.app/",
       "repositorio": "https://github.com/IlanVeras/lojaOnline",
-      "imagem": "../pictures/picture1"
+      "imagem": "/pictures/picture3.JPG"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "tecnologias": ["React", "HTML", "CSS", "axios", "API"],
       "link": "",
       "repositorio": "https://github.com/IlanVeras/cCep",
-      "imagem": "../pictures/picture1"
+      "imagem": "/pictures/picture1.JPG"
     },
     {
       "id": 4,
@@ -42,6 +42,6 @@
       "tecnologias": ["React", "Victory", "CSS", "print"],
       "link": "https://contador-publicacoes.vercel.app/",
       "repositorio": "https://github.com/IlanVeras/contadorPublicacoes",
-      "imagem": "../pictures/picture1"
+      "imagem": "/pictures/picture1.JPG"
     }
   ]

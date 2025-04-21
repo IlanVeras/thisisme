@@ -1,4 +1,14 @@
 .container{
     margin: 1rem 2rem 1rem 2rem;
+    display: flex;
 }
 
+.imageContainer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.imageContainer > img{
+    width: 200px;
+}

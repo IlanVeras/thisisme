@@ -11,10 +11,14 @@ export default function Home() {
     console.log(ProjetosObj)
   return (
     <div>
-        <NavBar/>
+        {/* <NavBar/> */}
         <AboutMe/>
         <Process/>
-        <CardProjeto/>
+        {
+            ProjetosObj.map((projeto,i) => (
+                <CardProjeto title={projeto.nome} description={projeto.descricao} srcImage={projeto.imagem} key={i}/>
+            ))
+        }
     </div>
   )
 }
