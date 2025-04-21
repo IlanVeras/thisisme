@@ -3,6 +3,7 @@ import React from 'react'
 import styles from "../AboutMe/styles.module.css"
 import profile from "../../public/pictures/ilan-veras-profile.png"
 import ButtonClean from '../ButtonClean/ButtonClean'
+import Process from '../Process/Process'
 
 export default function AboutMe() {
   return (
