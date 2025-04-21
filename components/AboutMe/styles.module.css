@@ -1,5 +1,23 @@
+.container{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
 .containerImg{
-    width: 300px;
-    height: 300px;
+    margin: 2rem;
     background-color: rgb(170, 170, 170);
+    align-self: center;
+}
+
+/* .containerImg img{
+    width: 100%;
+} */
+
+.info{
+    margin: 2rem;
+}
+
+.info > p{
+    text-align: left;
 }
