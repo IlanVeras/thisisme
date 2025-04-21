@@ -20,8 +20,8 @@ export default function Process() {
   return (
     <div>
       {
-        processo.map((processo) => (
-            <Step mainTxt={processo.title} secTxt={processo.description}/>
+        processo.map((processo, i) => (
+            <Step mainTxt={processo.title} secTxt={processo.description} key={`processo${i}`}/>
         ))
       }
     </div>

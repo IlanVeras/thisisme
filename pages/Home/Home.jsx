@@ -4,14 +4,17 @@ import NavBar from '../../components/NavBar/NavBar'
 import AboutMe from '../../components/AboutMe/AboutMe'
 import Process from '../../components/Process/Process'
 import ControlledCarousel from '../../components/ControlledCarousel/ControlledCarousel'
+import CardProjeto from '../../components/CardProjeto/CardProjeto'
+import ProjetosObj from "../../public/Data/DataProjects.json"
 
 export default function Home() {
+    console.log(ProjetosObj)
   return (
     <div>
         <NavBar/>
         <AboutMe/>
         <Process/>
-        {/* <ControlledCarousel/> */}
+        <CardProjeto/>
     </div>
   )
 }

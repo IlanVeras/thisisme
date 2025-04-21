@@ -12,7 +12,7 @@ export default function AboutMe() {
         <h1>Ilan Veras</h1>
         <p>Bacharel em Ciência da Computação, com experiência em desenvolvimento web full stack utilizando HTML, CSS, JavaScript, React.js, Node.js, MongoDB e Bootstrap.</p>
         <div>
-            <ButtonClean txt="Ver Projetos"/>
+            <ButtonClean txt="Ver Projetos" dark={true}/>
         </div>
       </div>
       <div className={styles.containerImg}>
